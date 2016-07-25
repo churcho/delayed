@@ -1,8 +1,5 @@
-# delayed
-Demo GenStage mix application from José Valim's presentation during Elixir London June 2016
-
 # Delayed
-
+Demo GenStage mix application from José Valim's presentation during Elixir London June 2016
 **TODO: Add description**
 
 ## Installation
