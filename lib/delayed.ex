@@ -10,7 +10,7 @@ defmodule Delayed do
     # Define workers and child supervisors to be supervised
     children = [
       supervisor(Delayed.Repo, []),
-      worker(Delayed.Producer, ["default"]),
+      worker(Delayed.Producer, []),
       supervisor(Task.Supervisor, [[name: Delayed.TaskSupervisor]])
     ]
 
