@@ -28,8 +28,10 @@ defmodule Delayed.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:ecto, path: "../ecto"},
-     {:postgrex, ">= 0.0.0"},
-     {:gen_stage, path: "../gen_stage"}]
+    [
+      {:ecto, "~> 2.0"},
+      {:postgrex, ">= 0.0.0"},
+      {:gen_stage, "~> 0.4.1"}
+    ]
   end
 end
